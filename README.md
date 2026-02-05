@@ -6,12 +6,17 @@ This package provides a bidirectional linked list where the last node points bac
 
 ## Features
 
-* **Circular Architecture**: The tail's `next` points to the head, and the head's `previous` points to the tail.
-* **Constant Time Operations**: O(1) complexity for `addFirst`, `addLast`, `removeFirst`, and `removeLast`.
+* **Circular Architecture** \
+The tail's `next` points to the head, and the head's `previous` points to the tail.
+* **Constant Time Operations** \
+O(1) complexity for `addFirst`, `addLast`, `removeFirst`, and `removeLast`.
 * **Optimized Index Access**: Element access via `operator[]` uses an optimized traversal (O(n/2)) by determining the shortest path from either the head or tail.
-* **Dart-Idiomatic Iteration**: Implements `Iterable<T>`, allowing you to use `for-in` loops, `map`, `where`, and other standard Dart collection methods.
-* **Infinite Loop Protection**: The custom iterator is designed to traverse the list exactly once per iteration cycle, preventing infinite loops despite the circular structure.
-* **Comprehensive Testing**: Includes unit tests for circularity, stress testing, and error handling.
+* **Dart-Idiomatic Iteration** \
+Implements `Iterable<T>`, allowing you to use `for-in` loops, `map`, `where`, and other standard Dart collection methods.
+* **Infinite Loop Protection** \
+The custom iterator is designed to traverse the list exactly once per iteration cycle, preventing infinite loops despite the circular structure.
+* **Comprehensive Testing** \
+Includes unit tests for circularity, stress testing, and error handling.
 
 ## Installation
 
@@ -66,8 +71,6 @@ for (final item in list) {
 final joined = list.map((e) => '[$e]').join(' <-> ');
 print(joined); // [A] <-> [B] <-> [C]
 ````
-
-## API Reference
 
 ## API Reference
 
