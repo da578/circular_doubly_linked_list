@@ -1,7 +1,7 @@
 name: circular_doubly_linked_list
-description: A sample command-line application.
+description: A high-performance Circular Doubly Linked List with O(1) operations and optimized bidirectional traversal.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/da578/circular_doubly_linked_list
 
 environment:
   sdk: ^3.10.8
