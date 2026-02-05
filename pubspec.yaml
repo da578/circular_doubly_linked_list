@@ -1,6 +1,6 @@
 name: circular_doubly_linked_list
 description: A high-performance Circular Doubly Linked List with O(1) operations and optimized bidirectional traversal.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/da578/circular_doubly_linked_list
 
 environment:
